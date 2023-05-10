@@ -19,7 +19,7 @@ const BestTime = () => {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-top: 50px;
+        margin-top: 20px;
     `
 
     const Title = styled.h1`
@@ -29,6 +29,7 @@ const BestTime = () => {
         border-top: 4px solid #0AAEE7;
         padding: 15px;
         border-bottom: 4px solid #0AAEE7;
+        margin-top: 10px;
     `
     const Info = styled.div`
         display: flex;
