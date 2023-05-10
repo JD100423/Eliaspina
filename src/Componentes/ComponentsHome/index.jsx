@@ -45,7 +45,7 @@ const Casa = () => {
 
                     <div className="info">
                         <div className="info-img">
-                        <iframe width="600" height="450" frameborder="0" style={{border: "2px solid #9CD2F8", borderRadius: "6px"}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10677.937864045185!2d-71.70928098389533!3d18.87726844231115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb0bb070f953767%3A0xb14c33e611e79982!2sComendador!5e0!3m2!1ses!2sdo!4v1683645899819!5m2!1ses!2sdo" title="Mapa" allowfullscreen></iframe>
+                        <iframe style={{border: "2px solid #9CD2F8", borderRadius: "6px"}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10677.937864045185!2d-71.70928098389533!3d18.87726844231115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb0bb070f953767%3A0xb14c33e611e79982!2sComendador!5e0!3m2!1ses!2sdo!4v1683645899819!5m2!1ses!2sdo" title="Mapa" allowfullscreen></iframe>
 
                         <div className="info-mapa">   
                         <h4 className="info-info">Elias piña, is located south of Santo Domingo, D.R. is a province that is 6 hours from the capital.</h4>
