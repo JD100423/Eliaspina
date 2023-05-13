@@ -21,8 +21,8 @@ const Footer = () => {
     return (
         <>
         <Foo>
-           <FooText> Hecho con ❤️ por:</FooText> 
-           <FooAut>&copy;Bartolo Del Rosario Marmolejos</FooAut>
+           <FooText> Made with ❤️ by:</FooText> 
+           <FooAut>&copy;Bartolo and Amelia Nicole.</FooAut>
         </Foo>
         </>
     )

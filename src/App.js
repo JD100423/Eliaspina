@@ -4,6 +4,8 @@ import BestTime from "./Componentes/Best";
 import Weather from "./Componentes/Weather";
 import Clothes from "./Componentes/Clothes";
 import Footer from "./Componentes/Footer";
+import Places from "./Componentes/Places";
+import Activities from "./Componentes/Activities";
 
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
     <BestTime />
     <Weather />
     <Clothes />
+    <Places />
+    <Activities />
     <Footer />
     </>
   );

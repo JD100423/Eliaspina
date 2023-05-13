@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../assets/img/Logo.jpg"
-import Countryside from "../../assets/img/Countryside.jpg"
+import River from "../../assets/img/Countryside.jpg"
 import Rio from "../../assets/img/Rio limpio.jpg"
 import './Casa.css'
 import Park from "../../assets/img/Parque.jpg"
@@ -22,15 +22,15 @@ const Casa = () => {
                     <h1>Vacation destination</h1>
 
                     <div className="info">
-                    <h2 className="info-title">Countryside Los rinconcitos</h2>
-                    <img src={Countryside} alt="Countryside Los rinconcitos" />
-                    <h4 className="info-info">The countryside "Los rinconcitos" is most famous in this places, all the people that visits the area goes there. </h4>
+                    <h2 className="info-title">River "Los rinconcitos"</h2>
+                    <img src={River} alt="Countryside Los rinconcitos" />
+                    <h4 className="info-info">The river "Los rinconcitos" is most famous in this places, all the people that visits the area goes there. </h4>
                     </div>
                     
                     <div className="info">
-                        <h2 className="info-title">Countryside "Rio Limpio"</h2>
+                        <h2 className="info-title">River "Rio Limpio"</h2>
                         <img src={Rio} alt="Countryside Rio Limpio" />
-                        <h4 className="info-info">The countryside "Rio Limpio" is famous also, because it's waters are fresh and beautiful</h4>
+                        <h4 className="info-info">The river "Rio Limpio" is famous also, because it's waters are fresh and beautiful</h4>
                     </div>
 
                     <div className="info">
