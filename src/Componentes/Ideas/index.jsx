@@ -33,10 +33,6 @@ const Ideas = () => {
         flex-wrap: wrap;
         width: 100%;
     `
-    const Text = styled.div`
-        align-items: center;
-        flex-direction: column;
-    `
     return (
         <>
         <Container>
