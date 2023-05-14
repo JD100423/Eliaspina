@@ -6,7 +6,9 @@ import Clothes from "./Componentes/Clothes";
 import Footer from "./Componentes/Footer";
 import Places from "./Componentes/Places";
 import Activities from "./Componentes/Activities";
-
+import Food from "./Componentes/Food";
+import General from "./Componentes/General";
+import Ideas from "./Componentes/Ideas";
 
 function App() {
   
@@ -18,6 +20,9 @@ function App() {
     <Clothes />
     <Places />
     <Activities />
+    <Food />
+    <General />
+    <Ideas />
     <Footer />
     </>
   );

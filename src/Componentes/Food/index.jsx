@@ -1,10 +1,9 @@
 import React from "react";
 import { styled } from "styled-components";
-import Market from "../../assets/img/Market.jpg"
-import Patronales from "../../assets/img/patronales.jpg"
-import Gagas from "../../assets/img/Gagas.jpg"
+import Chenche from "../../assets/img/chenchen.jpg"
+import Chaca from "../../assets/img/chaca.jpg"
 
-const Activities = () => {
+const Food = () => {
     const Content = styled.div`
         display: flex;
         flex-direction: column;
@@ -23,23 +22,22 @@ const Activities = () => {
     const Title = styled.h1`
         font-size: 45px;
         font-family: 'Source Sans Pro', sans-serif;
-        text-align: center;
         font-weight: 700;
+        border-bottom: 3px solid #3036F8;
         padding: 15px;
-        border-bottom: 4px solid #042D3B;
         margin-top: 10px;
     `
     const Info = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 20px;
-        background-color: #042D3B;
+        margin-bottom: 50px;
+        background-color: #3036F8;
         border-radius: 20px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
         padding: 20px;
     `
-    const InfoTitle = styled.div`
+    const InfoTitle = styled.h2 `
         font-size: 2rem;
         font-weight: 400;
         margin: 30px 0 20px;
@@ -52,7 +50,7 @@ const Activities = () => {
         font-size: 20px;
         color: #fff;
     `
-    const Img = styled.img`
+    const IMG = styled.img`
         max-width: 100%;
         height: auto;
         border-radius: 5px;
@@ -60,24 +58,20 @@ const Activities = () => {
     `
     return(
         <Content>
-                <Title>Activities to do there</Title>
+                <Title>Food</Title>
             <Card>
                 <Info>
-                    <InfoTitle>There they usually do:</InfoTitle>
-                    <InfoText>Binational market</InfoText>
-                    <Img src={Market}/>
+                    <InfoTitle>There you can try foods like:</InfoTitle>
+                    <InfoText>Chenchen con chivo</InfoText>
+                    <IMG src={Chenche}/>
                 </Info>
                 <Info>
-                    <InfoText>Patronal Fest</InfoText>
-                    <Img src={Patronales}/>
-                </Info>
-                <Info>
-                    <InfoText>Gagas fest</InfoText>
-                    <Img src={Gagas}/>
+                    <InfoText>Chacá</InfoText>
+                    <IMG src={Chaca}/>
                 </Info>
             </Card>
         </Content>
     )
 }
 
-export default Activities
+export default Food

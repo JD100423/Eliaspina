@@ -27,9 +27,8 @@ const Weather = () => {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     line-height: 21px;
-    border-top: 4px solid #0AAEE7;
     padding: 15px;
-    border-bottom: 4px solid #0AAEE7;
+    border-bottom: 4px solid #31A8A9;
     `
     const TitleInfo = styled.h2`
         font-size: 30px;

@@ -30,11 +30,11 @@ const Casa = () => {
                     <div className="info">
                         <h2 className="info-title">River "Rio Limpio"</h2>
                         <img src={Rio} alt="Countryside Rio Limpio" />
-                        <h4 className="info-info">The river "Rio Limpio" is famous also, because it's waters are fresh and beautiful</h4>
+                        <h4 className="info-info">The river "Rio Limpio" is famous also, because it waters are fresh and beautiful</h4>
                     </div>
 
                     <div className="info">
-                        <h2 className="info-title">Motorcyclist's Park</h2>
+                        <h2 className="info-title">Central Park</h2>
                         <img src={Park} alt="Motorcyclist's Park" />
                         <h4 className="info-info">That is probably the most famous park in town</h4>
                     </div>

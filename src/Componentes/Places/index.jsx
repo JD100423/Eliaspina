@@ -28,9 +28,8 @@ const Places = () => {
         font-size: 45px;
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 700;
-        border-top: 4px solid #0AAEE7;
         padding: 15px;
-        border-bottom: 4px solid #0AAEE7;
+        border-bottom: 4px solid #03F7BC;
         margin-top: 10px;
     `
     const Info = styled.div`
@@ -38,7 +37,7 @@ const Places = () => {
         flex-direction: column;
         align-items: center;
         margin-bottom: 50px;
-        background-color: #042D3B;
+        background-color: #03F7BC;
         border-radius: 20px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
         padding: 20px;

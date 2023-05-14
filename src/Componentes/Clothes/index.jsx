@@ -34,7 +34,6 @@ const Clothes = () => {
         line-height: 21px;
         padding: 15px;
         border-bottom: 4px solid #36B7A7;
-        border-top: 4px solid #36B7A7;
     `
     const TitleCard = styled.h2`
         font-size: 2rem;

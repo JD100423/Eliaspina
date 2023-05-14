@@ -26,9 +26,9 @@ const BestTime = () => {
         font-size: 45px;
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 700;
-        border-top: 4px solid #0AAEE7;
+        text-align: center;
         padding: 15px;
-        border-bottom: 4px solid #0AAEE7;
+        border-bottom: 4px solid #042D3B;
         margin-top: 10px;
     `
     const Info = styled.div`
