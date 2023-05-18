@@ -22,7 +22,7 @@ const Footer = () => {
         <>
         <Foo>
            <FooText> Made with ❤️ by:</FooText> 
-           <FooAut>&copy;Bartolo del Rosario Marmolejos.</FooAut>
+           <FooAut>&copy;Bartolo and Amelia.</FooAut>
         </Foo>
         </>
     )
